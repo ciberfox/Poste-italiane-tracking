@@ -62,9 +62,9 @@ class PosteItaliane(object):
         
         return self.shipments
 
-
+#massimo 24 codici
 if __name__ == "__main__":
-    trackingNumbers = ["AB01234CD", "EF56789GH"]
+    trackingNumbers = ["", ""]
     poste = PosteItaliane()
     shipments = poste.track(trackingNumbers)
 
